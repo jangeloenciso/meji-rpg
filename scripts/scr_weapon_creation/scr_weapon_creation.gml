@@ -6,3 +6,27 @@ function create_weapon(_sprite = spr_mint_staff, _weapon_length = 0, _bullet_obj
 	bullet_obj = _bullet_obj;
 	cooldown = _cooldown
 }
+
+// weapons
+
+global.weapon_list = {
+
+	mint_staff : new create_weapon(
+		spr_mint_staff,
+		sprite_get_bbox_right(spr_mint_staff) - sprite_get_xoffset(spr_mint_staff),
+		obj_mint_bullet,
+		9
+	),
+	
+	red_staff : new create_weapon(
+		spr_red_staff,
+		sprite_get_bbox_right(spr_mint_staff) - sprite_get_xoffset(spr_mint_staff),
+		obj_fireball,
+		50
+	),
+	
+
+}
+
+
+	

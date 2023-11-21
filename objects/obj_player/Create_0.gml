@@ -24,23 +24,7 @@
 	bullet_obj = obj_mint_bullet;
 	shoot_timer = 0;
 
-	mint_staff = new create_weapon(
-		spr_mint_staff,
-		sprite_get_bbox_right(spr_mint_staff) - sprite_get_xoffset(spr_mint_staff),
-		obj_mint_bullet,
-		9
-	)
-	
-	red_staff = new create_weapon(
-		spr_red_staff,
-		sprite_get_bbox_right(spr_mint_staff) - sprite_get_xoffset(spr_mint_staff),
-		obj_fireball,
-		50
-	)
-	
-	pink_staff = new create_weapon()
-
-	weapon = red_staff;
+	weapon = global.weapon_list.red_staff;
 	
 	
 	
