@@ -23,8 +23,11 @@
 // weapon info
 	bullet_obj = obj_mint_bullet;
 	shoot_timer = 0;
+	
+// add weapons to player weapons
 
-	weapon = global.weapon_list.red_staff;
+	selected_weapon = 0;
+	weapon = global.player_weapons[selected_weapon];
 	
 	
 	

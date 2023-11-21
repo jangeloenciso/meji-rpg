@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Player.yy",
+    "name": "Weapons",
+    "path": "folders/Player/Weapons.yy",
   },
   "parentObjectId": {
     "name": "obj_mint_bullet",

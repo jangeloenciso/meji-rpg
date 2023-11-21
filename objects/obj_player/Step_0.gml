@@ -5,6 +5,7 @@ up_key = keyboard_check(ord("W"));
 down_key = keyboard_check(ord("S"));
 
 shoot_key = mouse_check_button(mb_left);
+swap_weapon_pressed = mouse_check_button_pressed(mb_right);
 
 xspd = (right_key - left_key) * move_spd;
 yspd = (down_key - up_key) * move_spd;
@@ -15,6 +16,7 @@ yspd = (down_key - up_key) * move_spd;
 		yspd = 0;
 	}	
 
+// player movement
 if !global.in_combat {
 	
 	if yspd == 0 {
@@ -58,8 +60,6 @@ if !global.in_combat {
 	if xspd == 0 && yspd == 0 {
 		image_index = 0	
 	}
-
-
 
 //depth
 depth = -bbox_bottom;

@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Player",
-    "path": "folders/Player.yy",
+    "name": "Weapons",
+    "path": "folders/Player/Weapons.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

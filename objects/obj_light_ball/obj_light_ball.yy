@@ -1,10 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_mint_bullet",
+  "name": "obj_light_ball",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,7 +11,10 @@
     "name": "Weapons",
     "path": "folders/Player/Weapons.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_mint_bullet",
+    "path": "objects/obj_mint_bullet/obj_mint_bullet.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_mint_bullet",
-    "path": "sprites/spr_mint_bullet/spr_mint_bullet.yy",
+    "name": "spr_light_ball",
+    "path": "sprites/spr_light_ball/spr_light_ball.yy",
   },
   "spriteMaskId": null,
   "visible": true,
