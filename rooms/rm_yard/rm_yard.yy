@@ -13,6 +13,7 @@
     {"name":"inst_2285441F","path":"rooms/rm_yard/rm_yard.yy",},
     {"name":"inst_66314B9D","path":"rooms/rm_yard/rm_yard.yy",},
     {"name":"inst_27A564E0","path":"rooms/rm_yard/rm_yard.yy",},
+    {"name":"inst_6AD17D6B","path":"rooms/rm_yard/rm_yard.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -25,6 +26,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F478A7E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":90.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_517404E3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":0.0,"scaleX":2.8125,"scaleY":1.0,"x":0.0,"y":-14.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AD17D6B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_skull","path":"objects/obj_skull/obj_skull.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
 -3,5,-262,9,1,10,-78,9,1,8,-6,9,1,10,-78,9,1,8,-6,9,1,10,-78,9,1,8,-6,9,1,10,-78,9,1,8,-6,9,1,10,-78,9,1,8,-6,9,1,10,-78,9,1,8,-6,9,1,10,-78,9,1,8,-6,9,1,10,-78,9,1,8,-6,9,1,10,-78,9,-7,13,1,14,-3088,9,],"TileDataFormat":1,},"tilesetId":{"name":"ts_house_tiles","path":"tilesets/ts_house_tiles/ts_house_tiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

@@ -10,9 +10,12 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Weapons",
-    "path": "folders/Player/Weapons.yy",
+    "path": "folders/Weapons.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_damage_enemy",
+    "path": "objects/obj_damage_enemy/obj_damage_enemy.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Weapons",
-    "path": "folders/Player/Weapons.yy",
+    "path": "folders/Weapons.yy",
   },
   "parentObjectId": {
     "name": "obj_mint_bullet",

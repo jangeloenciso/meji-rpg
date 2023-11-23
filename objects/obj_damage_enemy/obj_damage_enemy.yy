@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fireball",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_damage_enemy",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Weapons.yy",
+    "name": "Enemies",
+    "path": "folders/Enemies.yy",
   },
   "parentObjectId": {
-    "name": "obj_mint_bullet",
-    "path": "objects/obj_mint_bullet/obj_mint_bullet.yy",
+    "name": "obj_damage_parent",
+    "path": "objects/obj_damage_parent/obj_damage_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_fireball",
-    "path": "sprites/spr_fireball/spr_fireball.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

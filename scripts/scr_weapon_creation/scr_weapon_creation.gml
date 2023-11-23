@@ -41,7 +41,7 @@ global.weapon_list = {
 		sprite_get_bbox_right(spr_light_staff) - sprite_get_xoffset(spr_light_staff),
 		obj_light_ball,
 		20,
-		40,
+		80,
 		360
 	),
 

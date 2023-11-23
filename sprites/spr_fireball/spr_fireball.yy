@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Weapons",
-    "path": "folders/Player/Weapons.yy",
+    "path": "folders/Weapons.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
