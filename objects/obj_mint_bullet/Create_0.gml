@@ -9,3 +9,5 @@ yspd = 0;
 dir_fix = false;
 max_dist = 240;
 destroy = false;
+
+depth = -bbox_bottom;
